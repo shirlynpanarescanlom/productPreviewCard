@@ -1,0 +1,65 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    ---Dark-cyan: hsl(158, 36%, 37%);
+    ---Cream: hsl(30, 38%, 92%);
+    ---Very-dark-blue: hsl(212, 21%, 14%);
+    ---Dark-grayish-blue: hsl(228, 12%, 48%);
+    ---White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(---Cream);
+    min-height: 100vh;
+}
+.container{
+    background-color: var(---White);
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.perfume{  
+    font-family: "Montserrat", serif;
+    font-size: 15px;
+    color: var(---Very-dark-blue);
+}
+.p, .cost{
+    color: var(---Dark-grayish-blue);
+}
+.oprize{
+    text-decoration: line-through;
+}
+.title{
+    font-family: "Fraunces", serif;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.prize{
+    font-family: "Fraunces", serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: var(---Dark-cyan);
+}
+.col2{
+    background-color: var(---White);
+}
+.prize{
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn{
+    height: 10%;
+    width: 100%;
+    background-color: var(---Dark-cyan);
+    border-radius: 10px;
+    color: var(---White);
+    font-weight: 600;
+    border: none;
+}
+.btn:hover{
+    background-color: hsl(155, 38%, 13%);
+    border: none;
+}
